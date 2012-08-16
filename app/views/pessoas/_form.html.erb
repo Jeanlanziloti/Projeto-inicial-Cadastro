@@ -12,35 +12,36 @@
     </div>
   <% end %>
 
-  <div id="nome" class="field">
-    <%= f.label :nome %><br />
-    <%= f.text_field :nome %>
-  </div>
-  <div id="sobrenome" class="field">
-    <%= f.label :sobrenome %><br />
-    <%= f.text_field :sobrenome %>
-  </div>
-  <div id="endereco" class="field">
-    <%= f.label :endereco %><br/>
-    <%= f.text_area :endereco %>
+		<div id="nome" class="field">
+				<%= f.label :nome %><br />
+				<%= f.text_field :nome %>
+			</div>
+			<div id="sobrenome" class="field">
+				<%= f.label :sobrenome %><br />
+				<%= f.text_field :sobrenome %>
+			</div>
+			<div id="endereco" class="field">
+				<%= f.label :endereco %><br/>
+				<%= f.text_area :endereco %>
 				
-  </div>
-  <div id="email" class="field">
-    <%= f.label :email %><br />
-    <%= f.text_field :email %>
-  </div>
-  <div id="telefone" class="field">
-    <%= f.label :telefone %><br />
-    <%= f.text_field :telefone %>
-  <br/><br/><br/>
-    <%= f.label :aniversario %><br />
-    <%= f.date_select :aniversario %>
-	 	
-				<div class="actions">
-				<br>
+			</div>
+			<div id="email" class="field">
+				<%= f.label :email %><br />
+				<%= f.text_field :email %>
+			</div>
+
+	 <div id="telefone" class="field">
+					<%= f.label :telefone %><br />
+					<%= f.text_field :telefone %>
+				  <br/><br/><br/>
+					<%= f.label :aniversario %><br />
+					<%= f.date_select :aniversario %>
+				 	
+							<div class="actions">
+								<br>
 								<%= f.submit %>
-			 	</div>		
- 
-	</div>
+						 	</div>		
+	 </div>
+
   
 <% end %>
