@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cadastro</title>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+</head>
+
+<body>
+  
+	     
+	   <div class="teste03">          
+				<div id="listing">
+						<center>
+						<h1>Lista de Pessoas</h1>
+						</center>
+					<table>
+						<tr>
+							<th>Nome</th>
+							<th>Sobrenome</th>
+							<th>Endereco</th>
+							<th>Email</th>
+							<th>Telefone</th>
+							<th>Aniversario</th>
+							<th></th>
+							<th></th>
+							<th></th>
+						</tr>
+
+					<% @pessoas.each do |pessoa| %>
+						<tr>
+							<td><%= pessoa.nome %></td>
+							<td><%= pessoa.sobrenome %></td>
+							<td><%= pessoa.endereco %></td>
+							<td><%= pessoa.email %></td>
+							<td><%= pessoa.telefone %></td>
+							<td><%= pessoa.aniversario %></td>
+							<td><%= link_to 'Show', pessoa %></td>
+							<td><%= link_to 'Edit', edit_pessoa_path(pessoa) %></td>
+							<td><%= link_to 'Destroy', pessoa, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+						</tr>
+					<% end %>
+					</table>
+
+					<br />
+					
+					
+					
+
+          
+					
+		
+										
+		</div>
+	</div>   
+ 
+ 
+
+</div>  
+
+	
+
+<%= yield %>
+
+</body>
+</html>
+

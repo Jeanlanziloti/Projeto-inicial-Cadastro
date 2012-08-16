@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Projeto</title>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+	
+									
+		 
+
+
+<div id="container"> 
+				
+					<div id="header">  
+								<div id="topMenu">
+										<ul>
+											<li class="Home"><%= link_to 'Home', root_path %></li>
+											<li><%= link_to 'contatos', pessoas_path %></li>
+											<li><%= link_to 'cadastrar', new_pessoa_path %></li>	
+										</ul>
+								</div>
+				 	</div>   
+	
+						<div id="menu">      
+							<h3> Links</h3>      
+							<ul>             
+									<li><a href="#">teste01</a></li>             
+										<li><a href="#">teste02</a></li>             
+									<li><a href="#">teste03</a></li>          
+									<li><a href="#">teste04</a></li>            
+									<li><a href="#">teste05</a></li>       
+							</ul>  
+						
+		
+							<ul>             
+										<li><a href="#">teste 4</a></li>             
+										<li><a href="#">teste</a></li>             
+											<li><a href="#">teste</a></li>             
+										<li><a href="#">teste</a></li>         
+							</ul>    
+
+						 </div> 
+
+			
+	</div>
+
+	<%= yield %>
+
+<div align="center" id="footer">        
+			Jean Lanziloti 
+</div> 
+
+				
+
+  
+
+</body>
+</html>

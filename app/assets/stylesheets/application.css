@@ -1,0 +1,199 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require_self
+ *= require_tree .
+ */
+
+
+	#topMenu {
+	float: left;
+	width: 450px;
+	height: 90px;
+	margin: 0px 0px 0px 50px;
+	padding: 0;
+}
+#topMenu ul {
+	margin: 0;
+	padding: 60px 0px 0px 0px;
+	list-style: none;
+	line-height: normal;
+}
+#topMenu li {
+	float: left;
+}
+#topMenu a {
+	display: block;
+	margin-right: 1px;
+	padding: 10px 15px 15px 15px;
+	text-decoration: none;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	color: #FFFFFF;
+	border: none;
+}
+
+#topMenu a:hover, #topMenu .Home a {
+	background: #2AA1CC;
+	text-decoration: none;
+}
+
+
+
+
+	#container  {   
+	background: #FFFAFA;
+	margin: 0px; 
+  
+	}   
+
+
+	#header {
+	height:108px;
+	background: #CF3;
+	margin:10px;
+ } 
+
+	#menu  {   
+	float:  right; 
+	font-size:105%; 
+	padding:15px;
+	background: #6F9; 	
+	position:absolute;
+	top: 126px;
+	right: 8px;
+	width: 280px;
+	height:500px;
+	margin: 2px 10px 10px 0px;
+
+	}  
+		
+ 
+	#contents  {   
+	float: top right;   
+	padding:15px; 
+	background: #9FC;
+	height:500px;  
+	margin: 0px 330px 10px 10px; 
+	}  
+
+	#contentIndex  {   
+	float: top right; 
+	height: 500px;  
+	padding:10px; 
+	background: #9FC;  
+	margin: 0px 330px 10px 10px; 
+	}  
+
+
+		#nome {
+		float: left;   
+	padding:10px; 
+	background: #9FC;  
+	margin:10px 60px;
+
+	}
+
+		#sobrenome {
+		float: right;   
+	padding:10px; 
+	background: #9FC;  
+	margin:10px 80px;
+	}
+	
+		#endereco {
+		float: left;   
+	padding:10px; 
+	background: #9FC;  
+	margin:10px 60px;
+
+	}
+		
+	#email {
+	float: right;   
+	padding:10px; 
+	background: #9FC;  
+	margin:10px 80px;
+	}
+
+	#telefone {
+	float: right;   
+	padding:10px; 
+	background: #9FC;  
+	margin:10px 80px;
+	}
+	
+	#aniversario {
+	float: right;   
+	padding:10px; 
+	background: #9FC;  
+	margin:10px 10px;
+	}
+	
+	#botao {
+	float: right;   
+	padding:10px; 
+	background: #9FC;  
+	margin:10px 0px;
+	}
+	
+	#back {
+	clear:both;   
+	background: #9FC;
+	margin: 0px 0px 0px 15px; 
+	}	
+	
+	#listing {
+	float: top right;   
+	padding:10px; 
+	background: #9FC;  
+	height:500px;
+	margin: 0px 330px 10px 10px;
+	}
+	
+	
+	#new {
+	float:left;   
+	padding:10px; 
+	background: #9FC;  
+	margin: 0px 330px 10px 10px;
+	}
+	
+	#show {
+	   
+	padding:10px; 
+	background: #9FC;  
+	margin: 0px 330px 10px 10px;
+	}
+
+	#editing {
+	float:left;   
+	padding:10px; 
+	background: #9FC;  
+	margin: 0px 330px 10px 10px;
+		}
+
+	#showBack {
+	clear:both;   
+	background: #9FC;
+	margin: 0px 330px 10px 10px;
+
+
+	}
+
+
+	#footer  {     
+	clear:both;   
+	background: #FF9;
+	margin: 0px 330px 10px 10px; 
+	}  
+
